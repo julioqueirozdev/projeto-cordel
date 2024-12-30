@@ -10,12 +10,11 @@
   --fonte3: "Sriracha", cursive;
 }
 
-
-
 *{
     margin: 0px;
     padding: 0px;
     font-size: 1em;
+    box-sizing: border-box;
 }
 
 html, body{
@@ -88,7 +87,7 @@ section.imagem > p {
 
 
 #sec2{
-    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-image: url(../imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
@@ -97,7 +96,7 @@ section.imagem > p {
 
 
 #sec4{
-    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-image: url(../imagens/background002.jpg);
     background-position: center left;
     background-size: cover;
     background-attachment: fixed;
